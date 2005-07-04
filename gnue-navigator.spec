@@ -1,5 +1,5 @@
 Summary:	GNUe Navigator - a menuing system for GNUe Forms and Reports
-#Summary(pl):	
+Summary(pl):	GNUe Navigator - systemu menu dla GNUe Forms i Reports
 Name:		gnue-navigator
 Version:	0.0.8
 Release:	0.1
@@ -17,6 +17,7 @@ Requires:	gnue-common
 Requires:	gnue-forms
 Requires:	gnue-reports
 Requires:	python
+Obsoletes:	GNUe-Navigator
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,10 +27,15 @@ on an XML "process definition."  GNUe Navigator uses the GNUe
 Forms or GNUe Reports clients to run the actual forms and reports,
 so these corresponding tools must be installed.
 
-#%description -l pl
+%description -l pl
+GNUe Navigator to system menu dla GNUe Forms i Reports. Prezentuje
+spójny interfejs menu (w ¶rodowisku graficznym lub tekstowym) oparty
+na XML-owej "definicji procesu". GNUe Navigator u¿ywa klientów GNUe
+Forms lub GNUe Reports do uruchamiania w³a¶ciwych formularzy i
+raportów, wiêc odpowiednie narzêdzia musz± byæ zainstalowane.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
