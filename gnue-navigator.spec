@@ -5,9 +5,9 @@ Version:	0.0.8
 Release:	0.1
 License:	GPL
 Group:		Libraries/Python
-Source0:	http://www.gnue.org/downloads/current/%{name}-%{version}.tar.gz
+Source0:	http://www.gnuenterprise.org/downloads/current/%{name}-%{version}.tar.gz
 # Source0-md5:	582722837c31d1cd368423eed6e37b05
-URL:		http://www.gnue.org/
+URL:		http://www.gnuenterprise.org/
 BuildRequires:	gnue-common
 BuildRequires:	gnue-forms
 BuildRequires:	gnue-reports
