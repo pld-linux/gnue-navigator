@@ -9,8 +9,6 @@ Source0:	http://www.gnuenterprise.org/downloads/current/%{name}-%{version}.tar.g
 # Source0-md5:	582722837c31d1cd368423eed6e37b05
 URL:		http://www.gnuenterprise.org/
 BuildRequires:	gnue-common
-BuildRequires:	gnue-forms
-BuildRequires:	gnue-reports
 BuildRequires:	python
 BuildRequires:	python-devel
 Requires:	gnue-common
