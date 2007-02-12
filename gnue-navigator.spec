@@ -1,5 +1,5 @@
 Summary:	GNUe Navigator - a menuing system for GNUe Forms and Reports
-Summary(pl):	GNUe Navigator - systemu menu dla GNUe Forms i Reports
+Summary(pl.UTF-8):   GNUe Navigator - systemu menu dla GNUe Forms i Reports
 Name:		gnue-navigator
 Version:	0.0.8
 Release:	0.1
@@ -25,12 +25,12 @@ on an XML "process definition."  GNUe Navigator uses the GNUe
 Forms or GNUe Reports clients to run the actual forms and reports,
 so these corresponding tools must be installed.
 
-%description -l pl
+%description -l pl.UTF-8
 GNUe Navigator to system menu dla GNUe Forms i Reports. Prezentuje
-spójny interfejs menu (w ¶rodowisku graficznym lub tekstowym) oparty
-na XML-owej "definicji procesu". GNUe Navigator u¿ywa klientów GNUe
-Forms lub GNUe Reports do uruchamiania w³a¶ciwych formularzy i
-raportów, wiêc odpowiednie narzêdzia musz± byæ zainstalowane.
+spÃ³jny interfejs menu (w Å›rodowisku graficznym lub tekstowym) oparty
+na XML-owej "definicji procesu". GNUe Navigator uÅ¼ywa klientÃ³w GNUe
+Forms lub GNUe Reports do uruchamiania wÅ‚aÅ›ciwych formularzy i
+raportÃ³w, wiÄ™c odpowiednie narzÄ™dzia muszÄ… byÄ‡ zainstalowane.
 
 %prep
 %setup -q
