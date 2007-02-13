@@ -1,5 +1,5 @@
 Summary:	GNUe Navigator - a menuing system for GNUe Forms and Reports
-Summary(pl.UTF-8):   GNUe Navigator - systemu menu dla GNUe Forms i Reports
+Summary(pl.UTF-8):	GNUe Navigator - systemu menu dla GNUe Forms i Reports
 Name:		gnue-navigator
 Version:	0.0.8
 Release:	0.1
